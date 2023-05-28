@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero header{
+    background-color:  #143257;
+    color: white;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+    width: 100%;
+}
+
+.hero header .header-main{
+    width: 100%;
+    padding: 5px 100px 5px 100px;
+    display: flex;
+}
+
+.hero header .header-main .phone{
+    width: 40%;
+    margin-right: 10%;
+}
+
+.hero header .header-main .sign{
+    width: 50%;
+    margin-left: 0%;
+    text-align: right;
+}
+
+/*Beginning of the first page after the header*/
+.hero .hero-title {
+    background-color: #F6F6F6;
+    width: 100%;
+
+}
+.hero .hero-title .hero-title-main{
+    width: 90%;
+    margin: auto;
+}
+
+.hero .hero-title .hero-title-main .hero-title-main-name{
+    width: 100%;
+    display: flex;
+    background-color: #ffff;
+    color: #3E3E3E;
+    padding: 40px 20px 40px 20px;
+} 
+
+.hero .hero-title .hero-title-main .hero-title-main-name .name-h2 {
+    width: 30%;
+    margin-right: 5%;
+}
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list{
+    width: 65%;
+}
+
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li{
+    display: inline-block;
+}
+
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li a {
+    text-decoration: none;
+}
