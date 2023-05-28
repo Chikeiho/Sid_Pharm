@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero {
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+        
+}
+
+.hero header{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 20px 100px 20px 100px;
+}
+
+/* Styling the header containing the pharmacy name and details */
+
+.hero header .hero-name{
+    width: 20%;
+    margin-right: 30%;
+}
+
+.hero header .hero-name h2 {
+    color: #123257;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.hero header .cons{
+    display: flex;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.hero header .hero-add{
+    width: 30%;
+    margin-right: 0%;
+    display: flex;
+}
+
+.hero header .hero-time{
+    width: 30%;
+    margin-right: 0%;
+    display: flex;
+}
+
+.hero header .hero-phone{
+    width: 30%;
+    margin-right: 0%;
+    display: flex;
+}
+
+/* Styling the icon and paragraphs in the header*/
+.hero header div div i {
+    width: 30%;
+    padding-right: 20px;
+    color: #7F7266;
+    font-size: 1.3rem;
+}
+
+.hero header div div p{
+    width: 70%;
+    color: #7F7266;
+    margin-top: 5px;
+    font-size: 0.6rem;
+}
+
+/*Styling the TAb Section*/
+
+.hero .second{
+    width: 100%;
+    height: auto;
+    background-color: #143257;
+}
+
+.hero .second nav {
+    width: 100%;
+    padding: 5px 100px 5px 100px;
+}
+
+.hero .second nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.hero .second nav ul li{
+    border-right:solid #4F6581;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.hero .second nav ul li:hover{
+    background-color: red;
+}
+
+.hero .second nav ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+
+.hero .second nav ul li a span{
+    color:#5BBCB2 ;
+}
+
