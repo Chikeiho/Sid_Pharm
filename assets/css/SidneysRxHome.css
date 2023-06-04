@@ -2,6 +2,11 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+.hero{
+    width: 100%;
+    background-color: #F6F6F6;
 }
 
 .hero header{
@@ -12,9 +17,10 @@
 }
 
 .hero header .header-main{
-    width: 100%;
-    padding: 5px 100px 5px 100px;
+    width: 90%;
+    padding: 15px 0px 15px 0px;
     display: flex;
+    margin: auto;
 }
 
 .hero header .header-main .phone{
@@ -28,6 +34,12 @@
     text-align: right;
 }
 
+.hero header .header-main .sign p a{
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
+
 /*Beginning of the first page after the header*/
 .hero .hero-title {
     background-color: #F6F6F6;
@@ -37,6 +49,7 @@
 .hero .hero-title .hero-title-main{
     width: 90%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .hero .hero-title .hero-title-main .hero-title-main-name{
@@ -48,17 +61,248 @@
 } 
 
 .hero .hero-title .hero-title-main .hero-title-main-name .name-h2 {
-    width: 30%;
-    margin-right: 5%;
+    text-align: center;
+    width: 20%;
+    margin-right: 10%;
+}
+
+.hero .hero-title .hero-title-main .hero-title-main-name .name-h2 img {
+    width: 100%;
+    /* height: 100px; */
 }
 .hero .hero-title .hero-title-main .hero-title-main-name .name-list{
-    width: 65%;
+    width: 77%;
 }
 
 .hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li{
     display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
 }
 
 .hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li a {
     text-decoration: none;
+    color: #424242;
+}
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li a i {
+    margin-right: 10px;
+}
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li a.fill {
+    background-color: #5CBDB3;
+    color: white;
+    border: solid#5CBDB3;
+    padding: 8px;
+}
+
+#sea {
+    position: relative;
+    right: 20px;
+}
+
+.hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li input{
+    /* height: 30px; */
+    background-color: #F6F6F6;
+    border: solid #F6F6F6;
+    padding: 8px;
+}
+#cart{
+    font-size: 1.7rem;
+}
+
+.hero .hero-title-main .hero-title-main-body{
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    background-color: white;
+    background-image:url('/assets/img/healthcare-equipment-office-supplies-with-succulent-plant-green-backdrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres{
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres .h2-write {
+    width: 55%;
+    font-size: 2.0rem;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    opacity: 0.4;
+    position: relative;
+    top: 150px;
+}
+
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres .h2-write h2{
+    color:white;
+    opacity: 1;
+    z-index: 102;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav{
+    position:relative;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    top: 180px;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    border: solid white;
+    background-color: #5CBDB3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav ul li a:hover{
+    background-color: white;
+    color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec3 {
+    width: 100%;
+    height: auto;
+
+    background-color: #ffff;
+    display: flex;
+    padding: 10px;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt1{
+    width: 32%;
+    margin: auto;
+    height: auto;
+    /* background-image: url('/assets/img/high-angle-pill-foils-plastic-containers.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-img img{
+    width: 100%;
+    padding-top: 50px;
+    height: 500px;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt2{
+    width: 32%;
+    margin: auto;
+    /* background-color:aquamarine; */
+    height: auto;
+    /* background-image: url('/assets/img/packings-pills-capsules-medicines.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-img img{
+    width: 100%;
+    padding-top: 50px;
+    height: 500px;
+}
+.hero .hero-title-main .sec3 .sec3-prt3{
+    width: 32%;
+    margin: auto;
+    /* background-color: #143257; */
+    height: auto;
+    /* background-image: url('/assets/img/25757.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-img img{
+    width: 100%;
+    padding-top: 50px;
+    height: 500px;
+}
+.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up h2 {
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    opacity: 0.6;
+    color: #ffff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up h2{
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    opacity: 0.6;
+    color: #ffff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up h2{
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    opacity: 0.6;
+    color: #ffff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up a{
+    width: 70%;
+    text-decoration: none;
+    margin: auto;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up a{
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up a{
+    width: 70%;
+    text-decoration: none;
+    margin: auto;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #5CBDB3;
 }
