@@ -143,6 +143,7 @@
     color:white;
     opacity: 1;
     z-index: 102;
+    text-transform: capitalize;
 }
 
 .hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav{
@@ -150,7 +151,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    top: 180px;
+    top: 200px;
 }
 
 .hero .hero-title-main .hero-title-main-body .main-body-h2-pres nav ul li {
@@ -379,7 +380,8 @@
 }
 
 .hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav div:hover {
-    background-color: white;
+    transform:scale(1.1);
+    background-color:#424242;
     color: #5CBDB3;
 }
 
@@ -396,3 +398,51 @@
     color: #5CBDB3;
 }
 
+.hero .footer {
+    width: 100%;
+    height: auto;
+    background-color: #032548;
+    color: #F6F6F6;
+}
+
+.hero .footer .footer-main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.hero .footer .footer-main .foot-img{
+    width: 28%;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero .footer .footer-main .foot-img img{
+    width: 50%;
+    text-align: left;
+}
+
+.hero .footer .footer-main .foot-copy{
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.hero .footer .footer-main .foot-wha{
+    width: 28%;
+    margin: auto;
+    padding: 20px;
+    text-align: right;
+    font-size: large;
+}
+
+.hero .footer .footer-main .foot-wha a{
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+.hero .footer .footer-main .foot-wha a i:hover{
+    transform: scale(2.0);
+}
