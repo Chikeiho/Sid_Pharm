@@ -128,8 +128,8 @@
 
 .hero .hero-title-main .hero-title-main-body .main-body-h2-pres .h2-write {
     width: 55%;
-    font-size: 2.0rem;
-    padding: 30px;
+    font-size: 1.5rem;
+    padding: 50px;
     text-align: center;
     margin: auto;
     background-color: black;
@@ -441,6 +441,7 @@
 .hero .footer .footer-main .foot-wha a{
     text-decoration: none;
     color: #F6F6F6;
+    margin: 5px;
 }
 
 .hero .footer .footer-main .foot-wha a i:hover{
