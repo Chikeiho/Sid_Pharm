@@ -227,6 +227,19 @@
 .hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up h2 {
@@ -237,8 +250,9 @@
     color: #ffff;
     padding: 30px;
     text-align: center;
-    position: relative;
-    bottom: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: 63px;
 }
 
 .hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up h2{
@@ -249,8 +263,9 @@
     color: #ffff;
     padding: 30px;
     text-align: center;
-    position: relative;
-    bottom: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: 63px;
 }
 
 .hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up h2{
@@ -261,48 +276,123 @@
     color: #ffff;
     padding: 30px;
     text-align: center;
-    position: relative;
-    bottom: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: 63px;
 }
 
-.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up a{
+.hero .hero-title-main .sec3 .sec3-prt1 .sec3-prt1-write-up a {
     width: 70%;
     text-decoration: none;
     margin: auto;
     color: #ffff;
     padding: 10px;
     text-align: center;
-    position: relative;
-    bottom: 250px;
+    position: absolute;
+    bottom: 90px;
+    left: 63px;
     border: solid white;
     border-radius: 5px;
     background-color: #5CBDB3;
 }
 
-.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up a{
+.hero .hero-title-main .sec3 .sec3-prt2 .sec3-prt2-write-up a {
+    width: 70%;
+    text-decoration: none;
+    margin: auto;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    left: 63px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up a{ 
+    width: 70%;
+    text-decoration: none;
+    margin: auto;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 90px;
+    left: 63px;
+    border: solid white;
+    border-radius: 5px;
+    background-color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec4 {
+    background-color: #ffff;
     width: 100%;
-    text-decoration: none;
-    margin: auto;
-    color: #ffff;
+    height: auto;
     padding: 10px;
-    text-align: center;
-    position: relative;
-    bottom: 250px;
-    border: solid white;
-    border-radius: 5px;
-    background-color: #5CBDB3;
+    padding-top: 20px;
 }
 
-.hero .hero-title-main .sec3 .sec3-prt3 .sec3-prt3-write-up a{
-    width: 70%;
-    text-decoration: none;
-    margin: auto;
-    color: #ffff;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    bottom: 250px;
-    border: solid white;
-    border-radius: 5px;
-    background-color: #5CBDB3;
+.hero .hero-title-main .sec4 .sec4-logo{
+    /* background-image: url('/assets/img/image-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; */
 }
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-shop{
+    width: 100%;
+    padding: 20px;
+    text-transform:uppercase;
+    font-family:"Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url('/assets/img/image-removebg-preview.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav div {
+    width: 19%;
+    margin: auto;
+    margin-bottom: 6px;
+    text-align: center;
+    padding: 20px;
+    background-color: #5CBDB3;
+    border: solid white;
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav div:hover {
+    background-color: white;
+    color: #5CBDB3;
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav div a {
+    text-decoration: none;
+    padding: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    font-size:small;
+    color: #ffff;
+}
+
+.hero .hero-title-main .sec4 .sec4-logo .sec4-cat nav div a:hover {
+    color: #5CBDB3;
+}
+
