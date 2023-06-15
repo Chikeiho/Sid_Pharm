@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero{
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #F6F6F6;
+}
+
+.hero .sec-main .logo {
+    background-color: #032548;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+}
+
+.hero .sec-main .logo  .logo-img{
+    width: 22%;
+    /* margin: auto; */
+}
+
+.hero .sec-main .logo .logo-img img {
+    width: 90%;
+}
+
+.hero .sec-main .logo  .par {
+    width: 70%;
+    color: white;
+    text-align:end;
+}
+
+.hero .sec-main .logo  .par p {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.hero .sec-main .logo  .par p i{
+    margin-left: 20px;
+}
+
+.hero .sec-main .form  {
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 50vh;
+}
+
+/* .hero .sec-main .form .form-img{
+    width: 48%;
+    margin:auto
+} */
+.hero .sec-main .form nav{
+    width: 100%;
+    margin: auto;
+}
+
+.hero .sec-main .form nav .form-header  {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hero .sec-main .form nav form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero .sec-main .form nav form .labels {
+    display: block;
+    width: 50%;
+    line-height: 22.8px;
+    text-align: right;
+}
+
+.hero .sec-main .form nav form .inputs {
+    display: block;
+    width: 48%;
+    margin-left: 2%;
+}
+.hero .sec-main .form nav form .for-btn {
+    width: 50%;
+    text-align: right;
+    padding-top: 20px;
+}
+.hero .sec-main .form nav form .for-btn button { 
+    background-color: rgb(87, 83, 83);
+    padding: 3px;
+    border: solid rgb(174, 141, 141);
+    color: #F6F6F6;
+    box-shadow:#032548;
+}

@@ -63,7 +63,7 @@
 .hero .hero-title .hero-title-main .hero-title-main-name .name-h2 {
     text-align: center;
     width: 20%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .hero .hero-title .hero-title-main .hero-title-main-name .name-h2 img {
@@ -71,12 +71,15 @@
     /* height: 100px; */
 }
 .hero .hero-title .hero-title-main .hero-title-main-name .name-list{
-    width: 77%;
+    width: 80%;
+    font-size: 0.8rem;
+    text-align: right;
+    font-weight:549;
 }
 
 .hero .hero-title .hero-title-main .hero-title-main-name .name-list ul li{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 12px;
     position: relative;
     top: 10px;
 }
@@ -107,7 +110,7 @@
     padding: 8px;
 }
 #cart{
-    font-size: 1.7rem;
+    font-size: 1.0rem;
 }
 
 .hero .hero-title-main .hero-title-main-body{
@@ -374,7 +377,7 @@
     margin: auto;
     margin-bottom: 6px;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     background-color: #5CBDB3;
     border: solid white;
 }
