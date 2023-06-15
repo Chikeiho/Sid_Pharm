@@ -44,7 +44,7 @@
 }
 
 .hero .sec-main .form  {
-    width: 33%;
+    width: 29%;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 50vh;
@@ -101,3 +101,43 @@
     box-shadow:#032548;
 }
 
+.hero .sec-main .form nav form .rem {
+    width: 50%;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.hero .sec-main .form nav form .fpwd {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero .sec-main .form nav form .fpwd p{
+    background-color:#d5d9db;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.hero .sec-main .form nav form .acct {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero .sec-main .form nav form .acct p{
+    width: 98%;
+    margin: auto;
+    background-color:#d5d9db;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.hero .sec-main .form nav form div p a {
+    text-decoration: none;
+    color: rgb(132, 42, 42);
+}
