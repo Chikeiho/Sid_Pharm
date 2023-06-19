@@ -44,7 +44,7 @@
 }
 
 .hero .sec-main .form  {
-    width: 33%;
+    width: 29%;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 50vh;
@@ -76,10 +76,15 @@
 
 .hero .sec-main .form nav form .labels {
     display: block;
-    width: 46%;
+    width: 50%;
     line-height: 22.8px;
     text-align: justify;
     padding-left: 20px;
+    
+}
+
+.hero .sec-main .form nav form .labels label {
+    margin-bottom: 20px;
 }
 
 .hero .sec-main .form nav form .inputs {
@@ -87,18 +92,79 @@
     width: 49%;
     margin-left: 1%;
 }
-.hero .sec-main .form nav form .for-btn {
-    width: 45%;
-    text-align: right;
-    padding-top: 30px;
-    margin-right: 5%;
+
+.hero .sec-main .form nav form .inputs input{
+    border: solid #032548;
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 185px;
 }
-.hero .sec-main .form nav form .for-btn button { 
+
+.hero .sec-main .form nav form .inputs select{
+    padding: 2px;
+    border: solid #032548;
+    background-color: #032548;
+    color: #F6F6F6;
+}
+
+.hero .sec-main .form nav form .uplo{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-right: 0%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* .hero .sec-main .form nav form .for-btn button { 
     background-color: rgb(206, 197, 197);
     padding: 3px;
     border: solid rgb(174, 141, 141);
     color: #090909;
     box-shadow:#032548;
+} */
+
+.hero .sec-main .form nav form .rem {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.hero .sec-main .form nav form .fpwd {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero .sec-main .form nav form .fpwd input{
+    /* background-color:#d5d9db; */
+    /* width: 70%; */
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.hero .sec-main .form nav form .acct {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero .sec-main .form nav form .acct button{
+    width: 98%;
+    margin: auto;
+    background-color:#d5d9db;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.hero .sec-main .form nav form div p a {
+    text-decoration: none;
+    color: rgb(132, 42, 42);
 }
 
 @media only screen and (min-width: 375px) and (max-width: 590px){
@@ -172,13 +238,12 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 20px;
     }
     
     .hero .sec-main .form nav form .labels {
         display: block;
         width: 45%;
-        line-height: 27px;
+        line-height: 22.8px;
         text-align: justify;
         padding-left: 10px;
         
@@ -201,23 +266,35 @@
         width: 185px;
     }
     
-    .hero .sec-main .form nav form .for-btn {
-        width: 45%;
-        text-align: right;
-        padding-top: 30px;
-        margin-right: 5%;
-    }
-    .hero .sec-main .form nav form .for-btn button { 
-        background-color: rgb(206, 197, 197);
-        padding: 3px;
-        border: solid rgb(92, 88, 88);
-        color: #090909;
-        box-shadow:#032548;
+    .hero .sec-main .form nav form .inputs select{
+        padding: 2px;
+        border: solid #032548;
+        background-color: #032548;
+        color: #F6F6F6;
     }
     
+    .hero .sec-main .form nav form .uplo{
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+        padding-top: 0px;
+        margin-left: 20px;
+        margin-right: 0%;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    /* .hero .sec-main .form nav form .for-btn button { 
+        background-color: rgb(206, 197, 197);
+        padding: 3px;
+        border: solid rgb(174, 141, 141);
+        color: #090909;
+        box-shadow:#032548;
+    } */
+    
     .hero .sec-main .form nav form .rem {
-        width: 50%;
-        text-align: justify;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
         padding-top: 30px;
         padding-left: 20px;
     }
@@ -225,12 +302,12 @@
     .hero .sec-main .form nav form .fpwd {
         width: 100%;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 50px;
     }
     
-    .hero .sec-main .form nav form .fpwd p{
-        background-color:#d5d9db;
-        width: 70%;
+    .hero .sec-main .form nav form .fpwd input{
+        /* background-color:#d5d9db; */
+        /* width: 70%; */
         margin: auto;
         padding: 10px;
         font-size: 14px;
@@ -242,7 +319,7 @@
         padding-top: 60px;
     }
     
-    .hero .sec-main .form nav form .acct p{
+    .hero .sec-main .form nav form .acct button{
         width: 98%;
         margin: auto;
         background-color:#d5d9db;
@@ -255,3 +332,4 @@
         text-decoration: none;
         color: rgb(132, 42, 42);
     }
+}

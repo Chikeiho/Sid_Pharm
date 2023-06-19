@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidneys Pharmacy</title>
-    <link rel="stylesheet" href="assets/css/SidneysRxHome.css">
+    <link rel="stylesheet" href="assets/css/Home.css">
     <link rel="stylesheet" href="assets/font_awesome/css/all.css">
     <link rel="shortcut icon" href="assets/img/SIDNEYS-100 (1).ico" type="image/x-icon">
 </head>
@@ -22,23 +22,25 @@
                         </p>
                 </div>
             </div>
+            <div class="menu-bar" ><button type="menu" id="icon"><i title="Menu" class="fa-solid fa-bars"></i></button></div>
         </header>
         <div class="hero-title">
             <div class="hero-title-main">
                 <div class="hero-title-main-name">
                     <div class="name-h2">
-                        <img src="/assets/img/image-removebg-preview.png" alt="">
+                        <a href="Home.html"><img src="/assets/img/image-removebg-preview.png" alt=""></a>
                         <!-- <h2>SIDNEYS PHARMACY</h2> -->
                     </div>
-                    <div class="name-list">
+                    <div id="list" class="name-list">
                         <ul>
                             <li><a href="">NEWS LETTERS</a></li>
                             <li><a href="">SERVICES</a></li>
                             <li><a href="">ABOUT US</a></li>
-                            <li><a href="" class="fill"><i class="fa-solid fa-file-prescription"></i>FILL PRESCRIPTION</a></li>
+                            <li id="filla"><a href="fillprescriptn.html" class="fill"><i class="fa-solid fa-file-prescription"></i>FILL PRESCRIPTION</a></li>
                             <li><input type="text" placeholder="SEARCH OUR SITE..."><i id="sea" class="fa-solid fa-magnifying-glass"></i></li>
                             <li><a href="http://"><i id="cart" class="fa-solid fa-cart-plus"></i></a></li>
                         </ul>
+                        <div class="close-menu-bar"><button type="button" id="close"><i title="Close" class="fa-regular fa-circle-xmark"></i></button></div>
                     </div>
                 </div>
                 <div class="hero-title-main-body">
@@ -48,7 +50,7 @@
                         </div>
                         <nav>
                             <ul>
-                                <li><a href="http://">Fill Prescription</a></li>&nbsp;&nbsp;&nbsp;
+                                <li><a href="fillprescriptn.html">Fill Prescription</a></li>&nbsp;&nbsp;&nbsp;
                                 <li><a href="http://">Shop Products</a></li>
                             </ul>
                         </nav>
@@ -70,7 +72,7 @@
                         </div>
                         <div class="sec3-prt2-write-up">
                             <h2>We offer a wide variety of vitamins and supplements</h2>
-                            <a href="http://">Vitamins and supplements</a>
+                            <a href="http://">Vitamines and supplements</a>
                         </div>
                     </div>
                     <div class="sec3-prt3">
@@ -92,9 +94,9 @@
                             <nav>
                                 <div ><a href="http://" >fitness and nutrition</a></div>
                                 <div ><a href="http://" >natural and organic</a></div>                                
-                                <div ><a href="http://" >paediatrics</a></div>
-                                <div ><a href="http://" >vits. and supplements</a></div>                                
-                                <div ><a href="http://" >meds ad treatment</a></div>
+                                <div ><a href="http://" >paediatric spec. care</a></div>
+                                <div ><a href="http://" >vits. & supplements</a></div>                                
+                                <div ><a href="http://" >meds and treatment</a></div>
                                 <div ><a href="http://" >sexual wellness</a></div>                                
                                 <div ><a href="http://">personal care</a></div>                                
                                 <div ><a href="http://" >consumables</a></div>
@@ -123,5 +125,6 @@
             </div>
         </div>
     </section>
+    <script src="/assets/js/home.js"></script>
 </body>
 </html>

@@ -141,3 +141,157 @@
     text-decoration: none;
     color: rgb(132, 42, 42);
 }
+
+@media only screen and (min-width: 375px) and (max-width: 590px){
+    .hero{
+        width: 100%;
+        font-family: "Open Sans", sans-serif;
+        background-color: #F6F6F6;
+    }
+    
+    .hero .sec-main .logo {
+        background-color: #032548;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .hero .sec-main .logo  .logo-img{
+        width: 40%;
+        /* margin: auto; */
+    }
+    
+    .hero .sec-main .logo .logo-img img {
+        width: 90%;
+    }
+    
+    .hero .sec-main .logo  .par {
+        width: 60%;
+        color: white;
+        text-align:end;
+        font-size: 11px;
+    }
+    
+    .hero .sec-main .logo  .par p {
+        width: 100%;
+        position: relative;
+        top: 2px;
+    }
+    
+    .hero .sec-main .logo  .par p i{
+        margin-left: 20px;
+    }
+    
+    .hero .sec-main .form  {
+        width: 95%;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 1px;
+        text-align: center;
+        font-size: 12px;
+        /* background-color: aqua; */
+    }
+    
+    /* .hero .sec-main .form .form-img{
+        width: 48%;
+        margin:auto
+    } */
+    .hero .sec-main .form nav{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .hero .sec-main .form nav .form-header  {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .hero .sec-main .form nav form{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .hero .sec-main .form nav form .labels {
+        display: block;
+        width: 45%;
+        line-height: 24.8px;
+        text-align: justify;
+        padding-left: 5px;
+        
+    }
+    
+    .hero .sec-main .form nav form .labels label {
+        margin-bottom: 20px;
+    }
+    
+    .hero .sec-main .form nav form .inputs {
+        display: block;
+        width: 50%;
+        margin-right: 0%;
+    }
+    
+    .hero .sec-main .form nav form .inputs input{
+        border: solid #032548;
+        margin-bottom: 2px;
+        padding: 2px;
+        /* width: 185px; */
+    }
+    
+    .hero .sec-main .form nav form .for-btn {
+        width: 50%;
+        text-align: end;
+        padding-top: 22px;
+        padding-right: 3px;
+    }
+    .hero .sec-main .form nav form .for-btn button { 
+        background-color: rgb(70, 62, 62);
+        padding: 3px;
+        border: solid #032548;
+        color: #efe7e7;
+        box-shadow:#032548;
+    }
+    
+    .hero .sec-main .form nav form .rem {
+        width: 45%;
+        text-align: justify;
+        padding-top: 30px;
+        padding-left: 5px;
+    }
+    
+    .hero .sec-main .form nav form .fpwd {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .hero .sec-main .form nav form .fpwd p{
+        background-color:#d5d9db;
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .hero .sec-main .form nav form .acct {
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .hero .sec-main .form nav form .acct p{
+        width: 98%;
+        margin: auto;
+        background-color:#d5d9db;
+        padding: 10px;
+        font-size: 14px;
+    
+    }
+    
+    .hero .sec-main .form nav form div p a {
+        text-decoration: none;
+        color: rgb(132, 42, 42);
+    }
